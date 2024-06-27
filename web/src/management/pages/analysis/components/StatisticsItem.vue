@@ -34,7 +34,7 @@
 
 <script setup>
 import { reactive, toRefs, defineProps, computed, watch, onMounted, onUnmounted, ref } from 'vue'
-import _cloneDeep from 'lodash/cloneDeep'
+import _cloneDeep from 'lodash-es/cloneDeep'
 import {
   separateItemListHead,
   summaryType,

@@ -113,7 +113,8 @@ export default defineConfig({
         target: 'http://127.0.0.1:3000',
         changeOrigin: true
       }
-    }
+    },
+    host: '0.0.0.0'
   },
   build: {
     rollupOptions: {}

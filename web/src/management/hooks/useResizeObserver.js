@@ -1,5 +1,5 @@
 // 引入防抖函数
-import _debounce from 'lodash/debounce'
+import _debounce from 'lodash-es/debounce'
 /**
  * @description: 监听元素尺寸变化
  * @param {*} el 元素dom
